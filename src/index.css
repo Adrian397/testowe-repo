@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-left: 20rem;
+  width: 8rem;
+  height: 3rem;
+}
+.btn.not-finished {
+  background-color: #b9b9b9;
+}
+
+.btn.finished {
+  background-color: green;
+}
+
+.page-wrapper {
+  height: 842px;
+  width: 595px;
+  transition: transform 0.3s;
+}
+
+.slide-left {
+  transform: translateX(-100%);
+}
+
+.slide-right {
+  transform: translateX(100%);
+}
+
+.wrapper {
+  min-width: 100%;
+}
